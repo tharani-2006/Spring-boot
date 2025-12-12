@@ -25,7 +25,7 @@ public class TodoController {
         return "Todo with ID";
     }
 
-    //Post Mapping
+    //RequestBody
     @PostMapping("/create")
     String createUser(@RequestBody String body){
         return body;
